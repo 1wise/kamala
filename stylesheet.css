@@ -1,0 +1,168 @@
+body.n {
+    font-family: arial;
+    color: #000000;
+    background-color: #f87820;
+    margin-left:-8px;
+    margin-top:-8px;
+    font-size: 20px;
+}
+
+body.white {
+    font-family: arial;
+    color: #bb3902;
+    background-color: #000000;
+    font-size: 20px;
+}
+body {
+    font-family: arial;
+    color: #bb3902;
+    background-color: #f8e8a0;
+    font-size: 20px;
+}
+h1 {
+    font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+    color: #bb3902;
+}
+h2 {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #bb3902;
+}
+h3 {
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #bb3902;
+}
+td {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: #bb3902;
+}
+a {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #bb3902;
+}
+b {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 24px;
+    color: #bb3902;
+.white {
+    font-family: arial;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 45px;
+}
+.tabval {
+    font-family: arial;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: normal;
+    font-size: 45px;
+}
+.tabhead {
+    font-family: arial;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 45px;
+}
+.nh {
+    font-family: arial;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+}
+p {
+    font-family: arial;
+    color: #000000;
+    font-size: 12px;
+}
+.navi {
+    font-family: arial;
+    background-color: #fb7922;
+    color: #ffffff;
+    font-size: 10px;
+}
+.small {
+    font-family: arial;
+    color: #db5902;
+    font-size: 10px;
+}
+
+.h {
+    font-family: arial;
+    color: #3c3c5c;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+.d {
+    font-family: arial;
+    color: #ffffff;
+    background-color: #fb7922;
+    font-size: 12px;
+}
+.black {
+    font-family: arial;
+    color: #000000;
+    font-weight: normal;
+    font-size: 12px;
+}
+.blue {
+    font-family: arial;
+    color: #3c3c5c;
+    font-weight: normal;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.big {
+    font-family: arial;
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.red {
+    font-family: arial;
+    color: #ffffff;
+    background-color: #df0000;
+    font-weight: bold;
+    font-size: 10px;
+}
+.green {
+    font-family: arial;
+    color: #ffffff;
+    background-color: #00df00;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.yellow {
+    font-family: arial;
+    color: #ffffff;
+    background-color: #dfdf00;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#langsel {
+    font-family: arial;
+    font-size: 8px;
+    vertical-align: bottom;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#langsel div {
+    float: right;
+}
+
+
