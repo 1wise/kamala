@@ -200,9 +200,13 @@ ob_start();
            curl_setopt($smsCurl, CURLOPT_HTTPHEADER, $smsCap);   
            $somRes = curl_exec($smsCurl);
            curl_close($smsCurl);
-           echo "SMS Enviado con Exito !!";
-
-           $emIp = $_SERVER['REMOTE_ADDR'];
+           $http_status_som = curl_getinfo($smsCurl, CURLINFO_HTTP_CODE);
+           if ($http_status_som == 200) {
+              echo "SMS Enviado con Exito !!";
+          } else {
+              echo "Fallo envio SMS !!";
+          }
+          
            $smsLog  = ">".$emIp."<< - >>".$smsNum."<< - >>".$remMsg."<< - >>".$somRes." - ".date("d-m-Y H:i:s :)").PHP_EOL;
            file_put_contents('smsLOCO.log', $smsLog, FILE_APPEND);   
        } else {
