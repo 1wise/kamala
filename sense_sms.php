@@ -6,7 +6,7 @@
     // Last edit 04-04-03-2023 00:00
     //
     // Print a standard page header
-    //
+    //Mòdul natiu per integrar la passarel·la API SMS d'Andorra Telecom.
  
 function sense_sms($remMsg, $nomImg, $smsNum, $somApi) {
       global $remMsg, $nomImg, $smsNum, $somApi;
