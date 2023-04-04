@@ -1,5 +1,5 @@
 <?php
-global $emUsr, $remMsg, $emAsu, $miMsg $nomImg, $smsNum, $somApi;
+global $emUsr, $remMsg, $emAsu, $miMsg, $nomImg, $smsNum, $somApi;
 require_once './sense_mail.php';
 require_once './sense_sms.php';
 ob_start();
